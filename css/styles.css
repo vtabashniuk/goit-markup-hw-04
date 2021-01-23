@@ -171,7 +171,11 @@ img {
 /* ======= MAIN ======= */
 /* ======= HERO ======= */
 .hero-section {
-  background: #2f303a;
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 600px;
+  background-color: #c4c4c4;
+  background-image: url("../img/studio/hero/hero-background.jpg");
 }
 
 .hero-container {
@@ -216,11 +220,36 @@ img {
 
 .advantages-list > .items {
   width: 270px;
-  height: 101px;
+}
+
+.advantages-list > .items::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .advantages-list > .items:not(:last-child) {
   margin-right: 30px;
+}
+
+.antenna::before {
+  background-image: url(../img/studio/our-advantages/antenna.svg);
+}
+
+.clock::before {
+  background-image: url(../img/studio/our-advantages/clock.svg);
+}
+
+.diagram::before {
+  background-image: url(../img/studio/our-advantages/diagram.svg);
+}
+
+.astronaut::before {
+  background-image: url(../img/studio/our-advantages/astronaut.svg);
 }
 
 .advantages-list .title {
@@ -229,6 +258,11 @@ img {
   line-height: 1.143;
   text-align: unset;
   text-transform: uppercase;
+  max-height: 100%;
+}
+
+.advantages-list .items > p {
+  height: 75px;
 }
 /* ======= OUR JOB ======= */
 .job-section {
