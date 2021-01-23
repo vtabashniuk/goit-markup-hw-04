@@ -29,7 +29,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  background: #ffffff;
+  background-color: #ffffff;
   color: var(--main-text-color);
 }
 
@@ -63,7 +63,7 @@ img {
 }
 
 .modal-button {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--white);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -290,7 +290,7 @@ img {
 /* ======= OUR TEAM ======= */
 .team-section {
   padding: 94px 0;
-  background: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .team-container {
@@ -312,11 +312,13 @@ img {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   overflow: hidden;
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .members-content {
   padding: 30px 0;
-  background: var(--white);
 }
 
 .members-content > .title {
@@ -337,7 +339,7 @@ img {
 
 /* ======= FOOTER ======= */
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .footer-container {
