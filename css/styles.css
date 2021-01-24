@@ -353,10 +353,19 @@ img {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
   width: 1200px;
   margin: 0 auto;
   padding: 60px 15px;
+}
+
+.adress-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.social-container {
+  padding-top: 12px;
 }
 
 .footer .contacts {
@@ -387,7 +396,6 @@ img {
 }
 
 /* === CONTACTS === */
-
 .footer .contacts .link {
   padding: 0;
   font-weight: 400;
@@ -399,6 +407,15 @@ img {
 .footer .contacts .link:hover,
 .footer .contacts .link:focus {
   color: var(--accent-color);
+}
+
+/* === SOCIAL NETS ===*/
+.social-container > p {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.143;
+  color: var(--white);
 }
 
 /* ======= END FOOTER ======= */
