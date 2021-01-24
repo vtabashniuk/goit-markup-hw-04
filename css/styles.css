@@ -329,10 +329,19 @@ img {
 }
 
 .members-content > p {
-  margin: 0 auto;
+  margin: 0 auto 16px auto;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
+}
+
+.social-nets {
+  display: flex;
+  margin: 0 auto;
+}
+
+.social-nets > .items:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ======= END MAIN ======= */
