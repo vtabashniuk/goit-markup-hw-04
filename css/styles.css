@@ -91,6 +91,13 @@ img {
 /* ~             STUDIO              ~ */
 /* ----------------------------------- */
 /* ======= HEADER ======= */
+header::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ececec;
+}
+
 .header-container {
   display: flex;
   width: 1200px;
