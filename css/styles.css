@@ -390,6 +390,7 @@ header::after {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   width: 1200px;
   margin: 0 auto;
   padding: 60px 15px;
@@ -398,11 +399,10 @@ header::after {
 .address-container {
   display: flex;
   flex-direction: column;
+  /* когда будут добавлены все элементы футера,
+  то margin у контейнеров заменить
+  на justify-content: space-between*/
   margin-right: 70px;
-}
-
-.social-container {
-  padding-top: 12px;
 }
 
 .footer .contacts {
