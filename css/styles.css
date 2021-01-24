@@ -265,6 +265,7 @@ img {
 .advantages-list .items > p {
   height: 75px;
 }
+
 /* ======= OUR JOB ======= */
 .job-section {
   padding-bottom: 94px;
@@ -287,6 +288,7 @@ img {
 .job-list > .items:not(:last-child) {
   margin-right: 30px;
 }
+
 /* ======= OUR TEAM ======= */
 .team-section {
   padding: 94px 0;
@@ -342,6 +344,34 @@ img {
 
 .social-nets > .items:not(:last-child) {
   margin-right: 10px;
+}
+
+/* ======= PERMANENT CLIENTS =======*/
+.clients-section {
+  padding: 94px 0;
+}
+
+.clients-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.clients {
+  display: flex;
+}
+
+.clients > .items {
+  /* -----> temporary <----- */
+  width: 170px;
+  height: 90px;
+  background-color: yellowgreen;
+  text-align: center;
+  /* -----> temporary <----- */
+}
+
+.clients > .items:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ======= END MAIN ======= */
