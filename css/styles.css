@@ -91,11 +91,8 @@ img {
 /* ~             STUDIO              ~ */
 /* ----------------------------------- */
 /* ======= HEADER ======= */
-header::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background-color: #ececec;
+header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -103,7 +100,6 @@ header::after {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  height: 80px;
   justify-content: space-between;
   align-items: center;
 }
