@@ -353,11 +353,36 @@ header {
 
 .social-nets {
   display: flex;
-  margin: 0 auto;
+  justify-content: space-between;
+  margin: 0 32px;
 }
 
 .social-nets > .items:not(:last-child) {
   margin-right: 10px;
+}
+
+.social-nets .icons {
+  width: 20px;
+  height: 20px;
+}
+
+.social-nets .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.social-nets .link:hover,
+.social-nets .link:hover .icons,
+.social-nets .link:focus,
+.social-nets .link:focus .icons {
+  background-color: var(--accent-color);
+  --color1: var(--white);
+  fill: var(--color1);
 }
 
 /* ======= PERMANENT CLIENTS =======*/
