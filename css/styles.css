@@ -19,7 +19,7 @@
   --black: #000000;
   --white: #ffffff;
   --secondary-background-color: #f5f4fa;
-  --conacts-color: rgba(255, 255, 255, 0.6);
+  --contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -350,7 +350,6 @@ header {
 
 .social-nets {
   display: flex;
-  justify-content: space-between;
   margin: 0 32px;
 }
 
@@ -440,6 +439,10 @@ header {
   margin-right: 70px;
 }
 
+.social-container > .social-nets {
+  margin: 0;
+}
+
 .footer .contacts {
   display: flex;
   flex-direction: column;
@@ -473,7 +476,7 @@ header {
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--conacts-color);
+  color: var(--contacts-color);
 }
 
 .footer .contacts .link:hover,
@@ -488,6 +491,16 @@ header {
   font-weight: 700;
   line-height: 1.143;
   color: var(--white);
+}
+
+.social-container .link {
+  background-color: #ffffff1a;
+  --color1: var(--white);
+}
+
+.social-container .link:hover,
+.social-container .link:focus {
+  background-color: var(--accent-color);
 }
 
 /* ======= END FOOTER ======= */
