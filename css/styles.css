@@ -161,10 +161,8 @@ header {
 
 .site-navigation .link:hover,
 .contacts .link:hover,
-.contacts .link:hover .icons,
 .site-navigation .link:focus,
 .contacts .link:focus,
-.contacts .link:focus .icons,
 .site-navigation .link:active {
   font-weight: 500;
   line-height: 1.143;
@@ -377,9 +375,7 @@ header {
 }
 
 .social-nets .link:hover,
-.social-nets .link:hover .icons,
-.social-nets .link:focus,
-.social-nets .link:focus .icons {
+.social-nets .link:focus {
   background-color: var(--accent-color);
   --color1: var(--white);
   fill: var(--color1);
