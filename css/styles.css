@@ -186,7 +186,11 @@ header {
   max-width: 1600px;
   height: 600px;
   background-color: #c4c4c4;
-  background-image: url("../img/studio/hero/hero-background.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/studio/hero/hero-background.jpg");
 }
 
 .hero-container {
