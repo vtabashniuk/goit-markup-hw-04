@@ -150,7 +150,8 @@ header {
 }
 
 .contacts .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
   font-weight: 500;
   line-height: 1.143;
@@ -160,13 +161,23 @@ header {
 
 .site-navigation .link:hover,
 .contacts .link:hover,
+.contacts .link:hover .icons,
 .site-navigation .link:focus,
 .contacts .link:focus,
+.contacts .link:focus .icons,
 .site-navigation .link:active {
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  --color2: var(--accent-color);
+  fill: var(--color2);
+}
+
+.contacts .icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /* ======= END HEADER ======= */
