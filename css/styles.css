@@ -169,7 +169,6 @@ header {
   letter-spacing: 0.02em;
   color: var(--accent-color);
   --color2: var(--accent-color);
-  fill: var(--color2);
 }
 
 .contacts .icons {
@@ -378,7 +377,6 @@ header {
 .social-nets .link:focus {
   background-color: var(--accent-color);
   --color1: var(--white);
-  fill: var(--color1);
 }
 
 /* ======= PERMANENT CLIENTS =======*/
@@ -394,19 +392,28 @@ header {
 
 .clients {
   display: flex;
+  justify-content: space-between;
 }
 
-.clients > .items {
-  /* -----> temporary <----- */
+.clients .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
-  background-color: yellowgreen;
-  text-align: center;
-  /* -----> temporary <----- */
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
-.clients > .items:not(:last-child) {
-  margin-right: 30px;
+.clients .icons {
+  width: 88px;
+  height: 52px;
+}
+
+.clients .link:hover,
+.clients .link:focus {
+  border-color: var(--accent-color);
+  --color1: var(--accent-color);
 }
 
 /* ======= END MAIN ======= */
